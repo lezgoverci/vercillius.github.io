@@ -1,0 +1,345 @@
+body{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: #F14937!important;
+    color: #fff!important;
+
+}
+
+#banner {
+    height: 100vh;
+}
+
+
+#form-title{
+    color: #fff;
+}
+
+#banner-content{
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+}
+
+#banner-content .icon{
+    width: 24px;
+}
+
+
+
+#banner-container {
+    display: flex;
+    flex:1;
+    background:  linear-gradient(90deg, rgba(0, 0, 0,0.7) , rgba(0, 0, 0, 0.7) ), url("./images/banner-image.png");
+    background-size: cover;
+    background-position-x: center ;
+}
+
+#banner{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#brochure-container input{
+    background: rgba(0, 0, 0, 0)!important;
+    color: #fff!important;
+}
+
+#banner-subtitle{
+    color: #fff
+}
+
+#event-container .label, #event-container .info{
+    color: #fff;
+}
+
+#event-container #date, #event-container #duration, #event-container #payment {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+#event-container #date-info, #event-container #duration-info, #event-container #payment-info {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+#event-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 12pt;
+}
+
+#newsletter-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background: #383838;
+}
+
+#banner-title{
+    font-size: 24pt;
+    color: #fff;
+    font-weight: bold;
+}
+
+#form-title{
+
+}
+
+.section-heading{
+    color: #F14937;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.industry-icons{
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.partnership-icons{
+    height: 60px;
+}
+
+#objectives{
+    background-color: #F5F5F5;
+}
+
+.objective-image{
+    height: 100px;
+    margin-bottom:20px;
+}
+
+.objective-card{
+    max-width: 250px;
+    padding:20px;
+    margin: 10px;
+    border: none;
+}
+
+#objectives .number{
+    background-color: #F14937;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+#syllabus{
+   background-color:  #2F2E2E;
+   position: relative;
+
+   padding-top: 40px;
+   padding-bottom: 40px;
+
+}
+
+#syllabus-cards{
+    height: 350px;
+
+
+}
+
+.syllabus-card{
+    width: 240px;
+    height: 280px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.syllabus-card .week{
+    font-size: 10pt;
+    color: #4E4E4E;
+}
+
+.syllabus-card .module{
+    font-size: 10pt;
+    color: #4E4E4E;
+}
+
+.syllabus-card.active{
+    width: 280px;
+    height: 320px;
+    background-color:#F14937;
+    color: #fff;
+}
+
+.syllabus-card.active .week{
+
+    color: #fff;
+}
+
+.syllabus-card.active .module{
+
+    color: #fff;
+}
+
+.syllabus-card .title{
+    font-size: 10pt;
+    font-weight: bold;
+    line-height: 14pt;
+}
+
+.syllabus-card.active .title{
+    font-size: 18pt;
+    font-weight: bold;
+    line-height: 22pt;
+}
+
+#syllabus .list-group-item{
+    background-color: rgba(0,0,0,0)!important;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.125)!important;
+}
+
+#syllabus #flow{
+    height: 320px;
+    overflow-y: scroll;
+}
+
+#syllabus .arrows{
+    height: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#syllabus .arrows:hover{
+    height: 22px;
+}
+
+#benefits{
+    background-image: url('./images/benefits-bg.jpg');
+    background-size: cover;
+    background-position-x: left;
+    background-position-y: top;
+}
+
+#benefits .list-benefits-item {
+    border-bottom: 1px solid #BCBCBC;
+    margin-bottom: 20px;
+    color: #5F5F5F;
+}
+
+#benefits .list-benefits-item span{
+    font-weight: bold;
+}
+
+#unique-factors {
+    color: #717171;
+}
+
+#unique-factors .icon{
+    height: 100px;
+}
+
+#unique-factors .title {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#case-study{
+    background-color: #2F2E2E;
+}
+
+#case-study .text{
+    color: #fff;
+}
+
+#case-study #article{
+    color: #7C7C7C;
+}
+
+
+#case-study #picture{
+    background-image: url("./images/ubp-case-study-bg.png");
+    background-size: cover;
+    background-position-x: center;
+
+}
+
+#case-study #logo-container{
+    padding: 20px;
+}
+
+#rxr-network #logos{
+    margin-bottom: 30px;
+}
+
+#faculty {
+    background-color: #F5F5F5;
+}
+
+#faculty .name{
+    color: #F14937;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#faculty .photo{
+    height: 100px;
+    width: 100px;
+}
+
+#faculty .card{
+    max-width: 300px;
+    height: 400px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+#faculty .card-footer{
+    background-color: #F14937;
+    color: #fff;
+}
+
+#about {
+    background: linear-gradient(90deg, rgba(0, 0, 0,0.7) , rgba(0, 0, 0, 0.7) ), url("./images/about-bg.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    background-position: center;
+}
+
+#about img{
+    max-width: 200px;
+}
+
+#about .about-logo{
+    height: 200px;
+}
+
+#footer , #footer a {
+    background-color: #F14937;
+    color: #fff;
+}
+
+#footer img {
+    max-width: 200px;
+}
+
+#footer #social img{
+    width: 20px;
+    height: 20px;
+
+}
+
+#footer .title{
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 425px){
+
+}
