@@ -302,6 +302,7 @@ button {
 #faculty .card-footer{
     background-color: #F14937;
     color: #fff;
+    height: 100px;
 }
 
 #about {
