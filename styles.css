@@ -25,9 +25,6 @@ button.btn {
     padding-bottom: 50px; */
 }
 
-#banner-content .icon{
-    width: 24px;
-}
 
 
 
@@ -51,6 +48,11 @@ button.btn {
     background-color: #fff;
     font-size: 8pt;
 }
+
+#brochure-container .icon{
+    width: 24px;
+}
+
 
 
 .brochure-item{
