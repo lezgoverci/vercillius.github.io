@@ -42,41 +42,56 @@
               adaptive and competitive in the 4th Industrial Revolution.
             </p>
           </div>
-          <div id="event-container" class="d-md-inline-flex flex-wrap">
-            <div id="date" class="d-block-inline">
-              <div id="date-icon" class="icon">
-                <img src="./images/date-icon.png" class="img-fluid" />
-              </div>
-              <div id="date-info">
-                <div class="label">STARTS ON</div>
-                <div class="info">3rd May 2021</div>
-              </div>
-            </div>
-            <div id="duration" class="d-block-inline">
-              <div id="duration-icon" class="icon">
-                <img src="./images/duration-icon.png" class="img-fluid" />
-              </div>
-              <div id="duration-info">
-                <div class="label">DURATION</div>
-                <div class="info">8 Weeks, Online</div>
-              </div>
-            </div>
-            <div id="payment" class="d-block-inline">
-              <div id="payment-icon" class="icon">
-                <img src="./images/payment-icon.png" alt=""  class="img-fluid"/>
-              </div>
-              <div id="payment-info">
-                <div class="label">PAYMENT METHOD</div>
-                <div class="info">
-                  <img src="./images/paypal-icon@2x.png" alt="" />
-                  <img src="./images/mastercard-icon@2x.png" alt="" />
-                  <img src="./images/visa-icon@2x.png" alt="" />
+          
+          <div id="brochure-container" class="d-flex align-items-center shadow-lg fixed-bottom py-3 ">
+
+              <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center">
+                  <div id="date" class="brochure-item d-flex p-3">
+                    <div id="date-icon" class="icon me-3">
+                      <img src="./images/date-icon.png" class="img-fluid" />
+                    </div>
+                    <div id="date-info" class=" pl-3">
+                      <div class="label me-3">STARTS ON</div>
+                      <div class="info">3rd May 2021</div>
+                    </div>
+                  </div>
+                  <div id="duration" class="brochure-item d-flex   p-3 j">
+                    <div id="duration-icon" class="icon me-3">
+                      <img src="./images/duration-icon.png" class="img-fluid" />
+                    </div>
+                    <div id="duration-info"  class="pl-3">
+                      <div class="label me-3">DURATION</div>
+                      <div class="info">8 Weeks, Online</div>
+                    </div>
+                  </div>
+                  <div id="payment" class="brochure-item  d-flex  p-3 ">
+                    <div id="payment-icon" class="icon me-3">
+                      <img src="./images/payment-icon.png" alt=""  class="img-fluid"/>
+                    </div>
+                    <div id="payment-info"  class="pl-3">
+                      <div class="label me-3">PAYMENT METHOD</div>
+                      <div class="info d-flex">
+                        <img src="./images/paypal-icon@2x.png" alt="" class="img-fluid"/>
+                        <img src="./images/mastercard-icon@2x.png" alt=""  class="img-fluid"/>
+                        <img src="./images/visa-icon@2x.png" alt=""  class="img-fluid"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="brochure-item  p-3 justify-content-center">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#brochureModal">
+                      Download Brochure
+                    </button>
+                  </div>
                 </div>
-              </div>
+                </div>
+                
+              
             </div>
-          </div>
-          <div id="brochure-container">
-            <form>
+           
+            
+
+            <!-- <form>
               <div class="row">
                 <div class="col-12 col-sm-6 mb-3">
                   <input
@@ -109,7 +124,7 @@
                   Download Brochure
                 </button>
               </div>
-            </form>
+            </form> -->
             <!-- <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/shell.js"></script>
 <script>
   hbspt.forms.create({
@@ -118,7 +133,7 @@
 });
 </script> -->
             
-          </div>
+     
         </div>
       </div>
     </div>
@@ -836,6 +851,27 @@ The partnership allows UBP to harness the industry expertise of global faculty m
           </div>
         </div>
         
+      </div>
+    </div>
+    <div class="modal fade" id="brochureModal" tabindex="-1" aria-labelledby="brochureModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="brochureModalLabel">Download Brochure</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <script charset="utf-8" type="text/javascript" src="https://js.hsforms.net/forms/shell.js"></script>
+            <script>
+              hbspt.forms.create({
+              portalId: "9191816",
+              formId: "b31ca155-5ec7-42d3-bbf7-c64938d14dd4",
+              
+            });
+            
+            </script>
+          </div>
+        </div>
       </div>
     </div>
     <script
