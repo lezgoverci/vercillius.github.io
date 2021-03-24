@@ -302,13 +302,13 @@ button.btn {
 }
 
 #faculty .photo{
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
 }
 
 #faculty .card{
     max-width: 300px;
-    height: 400px;
+    height: 500px;
     margin-bottom: 30px;
     border: none;
 }
@@ -353,6 +353,14 @@ button.btn {
 #footer .title{
     font-size: 14pt;
     font-weight: bold;
+}
+
+.mentor{
+    font-size: 10pt;
+}
+
+.mentor .name{
+    font-size: 12pt;
 }
 
 @media screen and (min-width: 425px){
