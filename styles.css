@@ -43,6 +43,25 @@ button.btn {
     justify-content: space-between;
 }
 
+#banner .btn-launch-app{
+
+    border-width: 1px;
+    border-style: solid;
+    border-color:  #fff;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff; 
+}
+
+#banner .btn-launch-app:hover{
+
+    border: none;
+
+    background-color:  #F14937;
+    color: #fff; 
+
+}
+
+
 #brochure-container {
 
     background-color: #fff;
